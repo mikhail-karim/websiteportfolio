@@ -1,0 +1,624 @@
+body {
+    font-family: 'Poppins';font-size: 22px;
+    position:absolute;
+    background-color:#0c151d;
+    height:2500px;
+    width:1280px;
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+}
+
+.main {
+    position:absolute;
+    width:960px;
+    height:2471px;
+}
+
+h1 {
+    color:#f1f2f4;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:46px;
+    font-family:Poppins;
+    line-height:auto;
+    border-style:hidden;
+    position: relative;
+    top: -30px;
+    width:333px;
+}
+
+.navigationbar {
+    height:43px;
+    width:378px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    position:relative;
+    left:400px;
+}
+
+.aboutme, .skillsandexp, .contact {
+    color:#f1f2f4;
+    text-decoration: none;
+    vertical-align:text-top;
+    font-size:17px;
+    font-family:Poppins;
+    align-self:flex-start;
+    top:0px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+    display:flex;
+}
+
+.aboutme {
+    text-align:left;
+    left:0px;
+    width:100px;
+}
+
+.skillsandexp {
+    text-align:center;
+    left:140px;
+    width:116px;
+}
+.contact {
+    text-align:right;
+    left:296px;
+    width:82px;
+}
+
+.profileinfo {
+    height:215px;
+    width:631px;
+    padding:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    position:absolute;
+    left:247px;
+    top: 100px;
+}
+
+.profilepicture {
+    align-self:flex-start;
+    left:2px;
+    top:0px;
+    position:absolute;
+    width:215px;
+    height:215px;
+}
+
+.profileinformation {
+    height:156px;
+    width:372px;
+    align-self:flex-start;
+    left:257px;
+    top:29.5px;
+    position:absolute;
+    padding:0px;
+}
+
+.profile-occupation {
+    color:#f1f2f4;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:22px;
+    font-family:Poppins;
+    top:72px;
+    width:372px;
+    height:33px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+}
+.socialmediaicons {
+    height:36px;
+    width:222px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap:26px;
+    top:-10px;
+    position:relative;
+    left:0px;
+}
+
+.socialmediaicons.github, .socialmediaicons.twitter, .socialmediaicons.linkedin, .socialmediaicons.instagram {
+    height:36px;
+    width:36px;
+    align-self:flex-start;
+    left:0px;
+    top:0px;
+    position:absolute;
+    padding:0px;
+    border-style:hidden;
+    outline:none;
+}
+.socialmediaicons.twitter {
+    left:62px;
+}
+.socialmediaicons.linkedin {
+    left:124px;
+}
+.socialmediaicons.instagram {
+    left:186px;
+}
+
+.aboutmeheading {
+    height:60px;
+    width:780px;
+    padding:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    gap:32px;
+    position:absolute;
+    left:173px;
+    top:392px;
+}
+
+.title {
+    height:60px;
+    width:212px;
+    align-self:flex-start;
+    left:284px;
+    top:0px;
+    position:absolute;
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+
+.fancy {
+    margin: 0 0 2em 0;
+}
+.line {
+    line-height: 0.5;
+    text-align: center;
+}
+.line h3 {
+    display: inline-block;
+    position: relative;  
+}
+.line h3:before,
+.line h3:after {
+    content: "";
+    position: absolute;
+    height: 0px;
+    border:2px solid #FED853;
+    top: 20px;
+    width: 300px;
+}
+.line h3:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.line h3:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.amp {
+    margin: 0 0 0.25em 0;
+}
+.amp h3 {
+    font-size: 0.7em;
+}
+
+h3 {
+    color:#f1f2f4;
+    text-align:center;
+    vertical-align:text-top;
+    font-size:36px;
+    font-family:Poppins;
+    align-self:flex-start;
+    top:10px;
+    position:relative;
+    height:40px;
+    letter-spacing:2.5px;
+    line-height:40px;
+    border-style:hidden;
+    outline:none;
+    display:flex;
+    font-weight: 80;
+}
+
+.aboutmetitle {
+    left:16.5px;
+    width:209px;
+}
+
+p {
+    color:#f1f2f4;
+    vertical-align:text-top;
+    font-size:16px;
+    font-family:Poppins;
+    line-height:30px;
+    border-style:hidden;
+    outline:none;
+    position:absolute;
+}
+
+.aboutmedetails {
+    height:532px;
+    width:755px;
+    padding-left:10px;
+    padding-right:10px;
+    left:185px;
+    top:520px;
+    position:relative;
+}
+
+.image1 {
+    height:240px;
+    width:247px;
+    left:0px;
+    top:270px;
+    position:absolute;
+}
+
+.bio {
+    text-align:left;
+    line-height:30px;
+    top:20px;
+    left:336px;
+    width:419px;
+}
+
+.pfp2
+{
+    height:240px;
+    width:247px;
+    left:0px;
+    top:0px;
+    position:absolute;
+}
+
+.skillsandexpheading {
+    height:60px;
+    width:780px;
+    padding:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    gap:32px;
+    position:absolute;
+    top:1224px;
+    left:173px;
+}
+
+.skillsandexptitle {
+    width:249px;
+    left:19px;
+}
+
+.fancy2 {
+    margin: 0 0 2em 0;
+}
+.line2 {
+    line-height: 0.5;
+    text-align: center;
+}
+.line2 h3 {
+    display: inline-block;
+    position: relative;  
+}
+.line2 h3:before,
+.line2 h3:after {
+    content: "";
+    position: absolute;
+    height: 0px;
+    border:2px solid #FED853;
+    top: 20px;
+    width: 290px;
+}
+.line2 h3:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.line2 h3:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.amp {
+    margin: 0 0 0.25em 0;
+}
+.amp h3 {
+    font-size: 0.7em;
+}
+
+.skillsandexpdetails
+{
+    height:605px;
+    width:780px;
+    padding-left:10px;
+    padding-right:10px;
+    left:173px;
+    top:820px;
+    position:relative;
+}
+.datasci {
+    color:#f1f2f4;
+    text-align:center;
+    vertical-align:text-top;
+    font-size:36px;
+    font-family:Poppins;
+    letter-spacing:2.5px;
+    line-height:40px;
+    border-style:hidden;
+    outline:none;
+    top:267px;
+    left:23px;
+    position:absolute;
+    width:189px;
+}
+
+.ceo {
+    color:#f1f2f4;
+    text-align:center;
+    vertical-align:text-top;
+    font-size:36px;
+    font-family:Poppins;
+    letter-spacing:2.5px;
+    line-height:40px;
+    border-style:hidden;
+    outline:none;
+    top:267px;
+    left:608px;
+    position:absolute;
+    width:189px;
+}
+
+.mleng {
+    color:#f1f2f4;
+    text-align:center;
+    vertical-align:text-top;
+    font-size:36px;
+    font-family:Poppins;
+    letter-spacing:2.5px;
+    line-height:40px;
+    border-style:hidden;
+    outline:none;
+    top:267px;
+    left:328px;
+    position:absolute;
+    width:189px;
+}
+
+
+.datascidetails, .mlengdetails, .ceodetails {
+    text-align:center;
+    top:336px;
+    width:235px;
+}
+
+.datascidetails {
+    left:0px;
+}
+
+.mlengdetails {
+    left:302px;
+}
+
+.ceodetails {
+    left:591px;
+}
+
+.logoktprofile1 {
+    height:234px;
+    width:234px;
+    left:585px;
+    top:0px;
+    position:absolute;
+}
+
+.dsimg {
+    height:252px;
+    width:234px;
+}
+
+.mlimg {
+    height:252px;
+    width:234px;
+    left:302px;
+    top:0px;
+    position:absolute;
+}
+
+.contactheading {
+    height:60px;
+    width:780px;
+    padding:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    gap:32px;
+    position:absolute;
+    top:2182px;
+    left:194px;
+}
+
+.contactstitle {
+    left:19.5px;
+    width:219px;
+}
+
+.fancy3 {
+    margin: 0 0 2em 0;
+}
+.line3 {
+    line-height: 0.5;
+    text-align: center;
+}
+.line3 h3 {
+    display: inline-block;
+    position: relative;  
+}
+.line3 h3:before,
+.line3 h3:after {
+    content: "";
+    position: absolute;
+    height: 0px;
+    border:2px solid #FED853;
+    top: 20px;
+    width: 290px;
+}
+.line3 h3:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.line3 h3:after {
+    left: 100%;
+    margin-left: 15px;
+}
+.amp {
+    margin: 0 0 0.25em 0;
+}
+.amp h3 {
+    font-size: 0.7em;
+}
+
+.contactdetails {
+    height:174px;
+    width:382px;
+    padding:0px;
+    left:372px;
+    top:1187px;
+    position:relative;
+}
+
+.group {
+    width:399px;
+    height:174px;
+    position:absolute;
+}
+
+.email {
+    height:36px;
+    width:36px;
+}
+
+.myemail {
+    color:#f1f2f4;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:20px;
+    font-family:Poppins;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+    left:79px;
+    top:3px;
+    position:absolute;
+    width:320px;
+}
+
+.whatsapp {
+    height:36px;
+    width:36px;
+    position: relative;
+    top: 68px;
+    right: 40px;
+}
+
+.phonenumber {
+    color:#f1f2f4;
+    text-align:left;
+    vertical-align:text-top;
+    font-size:20px;
+    font-family:Poppins;
+    left:79px;
+    top:69px;
+    width:303px;
+    height:30px;
+    position:absolute;
+    line-height:auto;
+    border-style:hidden;
+    outline:none;
+}
+
+.socialmediaicons2 {
+    height:36px;
+    width:222px;
+    padding:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap:26px;
+    position:absolute;
+    top:138px;
+    left:0px;
+}
+
+.github2 {
+    height:36px;
+    width:36px;
+    padding:0px;
+    border-style:hidden;
+    outline:none;
+    transition: all ease-in-out 250ms;
+}
+
+.twitter2 {
+    height:36px;
+    width:36px;
+    left:62px;
+    padding:0px;
+    border-style:hidden;
+    outline:none;
+    transition: all ease-in-out 250ms;
+}
+
+.linkedin2 {
+    height:36px;
+    width:36px;
+    left:124px;
+    padding:0px;
+    border-style:hidden;
+    outline:none;
+    transition: all ease-in-out 250ms;
+}
+
+.instagram2 {
+    height:36px;
+    width:36px;
+    left:186px;
+    padding:0px;
+    border-style:hidden;
+    outline:none;
+    transition: all ease-in-out 250ms;
+}
+
+.copyright {
+    height:14px;
+    width:281px;
+    padding:0px;
+    left:442px;
+    top:1291px;
+    position:relative;
+}
+
+.copyrightinfo {
+    text-align:center;
+    font-size:10px;
+    width:281px;
+}
